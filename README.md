@@ -4,7 +4,7 @@
 Use following launch options for CS:GO
 
 ```
--console -novid -tickrate 128 +exec autoexec
+-d3d9ex -nojoy -novid -console -tickrate 128 +exec autoexec
 ```
 
 ## Setup
