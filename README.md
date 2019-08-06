@@ -1,25 +1,33 @@
 # Counter-Strike Global offensive configuration
 
 ## Launch options
+
 Use following launch options for CS:GO
 
-```
+```text
 -d3d9ex -nojoy -novid -console -tickrate 128 +exec autoexec
 ```
 
 ## Setup
-Assumes bash is installed (Linux Bash W10 or Cygwin).
 
-```
-# Remove old files
-rm \
-  "%STEAMDIR%/steamapps/common/Counter-Strike Global Offensive/csgo/cfg/autoexec.cfg" \
-  "%STEAMDIR%/userdata/%STEAM3ID%/730/local/cfg/video.txt
-
-# Copy new files
-cp autoexec.cfg "%STEAMDIR%/steamapps/common/Counter-Strike Global Offensive/csgo/cfg/autoexec.cfg"
-cp video.txt    "%STEAMDIR%/userdata/%STEAM3ID%/730/local/cfg/video.txt
-```
-
-Or just copy them manually, usually `%STEAMDIR` is located at something like
+Copy configuration manually, usually `%STEAMDIR` is located at something like
 `C:\Program Files (x86)\Steam`.
+
+```text
+cp *.cfg     "%STEAMDIR%/steamapps/common/Counter-Strike Global Offensive/csgo/cfg/autoexec.cfg"
+cp video.txt "%STEAMDIR%/userdata/%STEAM3ID%/730/local/cfg/video.txt"
+```
+
+## Practice
+
+The practice config is useful to practice grenades. The configuration is
+inspired (or you might say copied) from [Tobys
+CS](https://www.tobyscs.com/csgo-practice-config/). To load the practice config
+just start a local game with bod and run `exec practice`.  The useful binds for
+pracies is already added in the `autoexec.cfg`.
+
+| Key | Binding               |
+| --- | --------------------- |
+| n   | noclip                |
+| l   | cast_ray              |
+| v   | give for each grenade |
