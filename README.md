@@ -30,4 +30,4 @@ pracies is already added in the `autoexec.cfg`.
 | --- | --------------------- |
 | n   | noclip                |
 | l   | cast_ray              |
-| v   | give for each grenade |
+| h   | give for each grenade |
