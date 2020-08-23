@@ -14,7 +14,7 @@ Copy configuration manually, usually `%STEAMDIR` is located at something like
 `C:\Program Files (x86)\Steam`.
 
 ```text
-cp *.cfg     "%STEAMDIR%/steamapps/common/Counter-Strike Global Offensive/csgo/cfg/autoexec.cfg"
+cp *.cfg     "%STEAMDIR%/steamapps/common/Counter-Strike Global Offensive/csgo/cfg/"
 cp video.txt "%STEAMDIR%/userdata/%STEAM3ID%/730/local/cfg/video.txt"
 ```
 
